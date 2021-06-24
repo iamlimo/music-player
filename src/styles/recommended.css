@@ -1,0 +1,13 @@
+
+
+.recommended{
+    width: 200px;
+    padding: 0;
+}
+#img-cover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+}
