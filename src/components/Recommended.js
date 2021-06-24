@@ -23,16 +23,19 @@ const Recommended = () => {
     console.log(songs)
     return (
         <>
-         
-         {songs.map((song) =>{
+          <div className="teesty">Recommended</div>
+        <div className="flex-container">
+           
+        {songs.map((song) =>{
              
              return   <div className="recommended">
             <div id="img-cover" className="" style={{ backgroundImage: `url(http://direct.rhapsody.com/imageserver/v2/albums/${song.albumId}/images/300x300.jpg)` }}></div>
             <h3 id="">{song.artistName}</h3>
-            <p>I love you babe</p>
+            <p>{song.albumName}</p>
             </div>
          })}
            
+        </div>
             
 
          
